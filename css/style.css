@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+#barra {
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 70%; 
+} 
+
+#barra .menu > div {
+    background-color: #daa520;
+    border: 1px dashed #000;
+    padding: 10px;
+}
+
+.logo{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.link {
+    flex-grow: 2;
+    text-align: center; 
+}
+
+.login{
+    flex-grow: 1;
+    text-align: right;
+}
