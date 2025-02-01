@@ -42,9 +42,7 @@ body {
 
 
 /* BODY STYLE */
-
-#sotto-barra{
-    background-color: #00008b;
+.posizione{
     padding-top: 50px;
     padding-bottom: 50px;
     
@@ -58,15 +56,56 @@ body {
     border: 1px dashed #000;
 }
 
-
-
-#container-chiaro{
-    background-color: white;
+.due-blocchi{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 30%);
 }
 
-#container-scuro{
+/* DA CHIEDERE SE è GIUSTO CREARE CSS+ROW-REVERSE O INVERTIRE SEMPLICEMENTE I DIV PER
+OTTENERE LO STESSO RISULTATO */
+.due-blocchi-reverse {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 30%);
+    flex-direction: row-reverse; 
+}
+
+.box{
+    border: 1px dashed #000;
+    height: 500px;
+}
+
+.pink{
+    background-color: #ffc0cb;
+    flex-grow: 1 ;
+}
+
+.azul{
+    background-color: #1e90ff;
+    flex-grow: 2 ;
+}
+
+
+/* STILI PER IL BACKGROUND */
+
+.bg-blue {
+    background-color: #00008b;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-grey {
     background-color: #d3d3d3;
 }
 
-
+.bg-black {
+    background-color: #23272a;
+}
 
