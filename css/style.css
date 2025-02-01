@@ -1,3 +1,5 @@
+/* HEADER STYLE */
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
     height: 80px;
-
 }
 
 .menu {
@@ -38,3 +39,34 @@ body {
     flex-grow: 1;
     text-align: right;
 }
+
+
+/* BODY STYLE */
+
+#sotto-barra{
+    background-color: #00008b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.square{
+    background-color: #ee82ee;
+    margin: 0 auto;
+    height: 400px;
+    width: 900px;
+    border: 1px dashed #000;
+}
+
+
+
+#container-chiaro{
+    background-color: white;
+}
+
+#container-scuro{
+    background-color: #d3d3d3;
+}
+
+
+
