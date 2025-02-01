@@ -56,12 +56,23 @@ body {
     border: 1px dashed #000;
 }
 
+.blocco{
+    background-color: #228b22;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 30%);
+    height: 800px;
+    border: 1px dashed #000;
+}
+
 .due-blocchi{
     display: flex;
     align-items: stretch;
     justify-content: center;
     margin: 0 auto;
     width: calc(100% - 30%);
+    
 }
 
 /* DA CHIEDERE SE è GIUSTO CREARE CSS+ROW-REVERSE O INVERTIRE SEMPLICEMENTE I DIV PER
