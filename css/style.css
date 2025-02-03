@@ -80,15 +80,12 @@ body {
 
 /* DA CHIEDERE SE è GIUSTO CREARE CSS+ROW-REVERSE O INVERTIRE SEMPLICEMENTE I DIV PER
 OTTENERE LO STESSO RISULTATO */
-.due-blocchi-reverse {
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    margin: 0 auto;
-    width: calc(100% - 30%);
+.due-blocchi .reverse {
     flex-direction: row-reverse; 
 }
 
+
+/* stile tabella a colonna */
 .colonna{
     display: flex;
     align-items: stretch;
@@ -98,7 +95,6 @@ OTTENERE LO STESSO RISULTATO */
     
 }
 
-/* stile tabella a colonna */
 .tabella{
     height: 580px;
     border: 1px dashed #000;
@@ -126,14 +122,14 @@ OTTENERE LO STESSO RISULTATO */
     height: 500px;
 }
 
-.pink{
+.small{
     background-color: #ffc0cb;
     flex-grow: 1 ;
 }
 
-.azul{
+.big{
     background-color: #1e90ff;
-    flex-grow: 2 ;
+    flex-grow: 1.5 ;
 }
 
 
@@ -156,9 +152,9 @@ OTTENERE LO STESSO RISULTATO */
 }
 
 
+
+
 /* FOOTER */
-
-
 
 #fine {
     background-color: #23272a; 
