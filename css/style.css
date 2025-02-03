@@ -164,29 +164,20 @@ OTTENERE LO STESSO RISULTATO */
     background-color: #23272a; 
     display: flex;
     justify-content: center;
-    height: 80px;
+    height: 110px;
+    margin-top: 0px;
+    align-items: flex-end;
 }
 
-.menu-fine {
-    display: flex;
-    align-items: center;
-    width: 70%; 
-     
-    
-}
 
-.menu-fine > div {
-    background-color: #7fffd4; 
-    width: 100%;
-    padding: 10px;
-    margin-top: 40px;
- 
-}
 
 .info{
+    background-color: #7fffd4; 
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    width: 70%; 
+    height: 70px
     
 }
 
@@ -195,6 +186,7 @@ OTTENERE LO STESSO RISULTATO */
     border: 1px dashed #000;
     width:  auto;
     text-align: left;
+    padding: 0px 5px 0px 5px;
 
 }
 
@@ -204,5 +196,6 @@ OTTENERE LO STESSO RISULTATO */
     width: 10px;
     text-align: right;
     width: auto;
+    padding: 0px 5px 0px 5px;
     
 }
