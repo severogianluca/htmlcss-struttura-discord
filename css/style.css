@@ -56,13 +56,15 @@ body {
     border: 1px dashed #000;
 }
 
+
+
 .blocco{
     background-color: #228b22;
     align-items: stretch;
     justify-content: center;
     margin: 0 auto;
     width: calc(100% - 30%);
-    height: 800px;
+   height: 800px;              /* ALTEZZA */
     border: 1px dashed #000;
 }
 
@@ -85,6 +87,8 @@ OTTENERE LO STESSO RISULTATO */
     width: calc(100% - 30%);
     flex-direction: row-reverse; 
 }
+
+
 
 .box{
     border: 1px dashed #000;
@@ -120,3 +124,54 @@ OTTENERE LO STESSO RISULTATO */
     background-color: #23272a;
 }
 
+
+/* FOOTER */
+
+
+
+#fine {
+    background-color: #23272a; 
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.menu-fine {
+    display: flex;
+    align-items: center;
+    width: 70%; 
+     
+    
+}
+
+.menu-fine > div {
+    background-color: #7fffd4; 
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+ 
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.logo1{
+    background-color: #ffb6c1; 
+    border: 1px dashed #000;
+    width:  auto;
+    text-align: left;
+
+}
+
+.bottone {
+    background-color: #ffb6c1; 
+    border: 1px dashed #000;
+    width: 10px;
+    text-align: right;
+    width: auto;
+    
+}
