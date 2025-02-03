@@ -80,7 +80,7 @@ body {
 
 /* DA CHIEDERE SE è GIUSTO CREARE CSS+ROW-REVERSE O INVERTIRE SEMPLICEMENTE I DIV PER
 OTTENERE LO STESSO RISULTATO */
-.due-blocchi .reverse {
+.due-blocchi.reverse {
     flex-direction: row-reverse; 
 }
 
@@ -163,6 +163,8 @@ OTTENERE LO STESSO RISULTATO */
     height: 110px;
     margin-top: 0px;
     align-items: flex-end;
+    border-top: 1px solid #d3d3d3;
+    
 }
 
 
@@ -173,7 +175,7 @@ OTTENERE LO STESSO RISULTATO */
     justify-content: space-between;
     align-items: center;
     width: 70%; 
-    height: 70px
+    height: 70px;
     
 }
 
@@ -183,7 +185,7 @@ OTTENERE LO STESSO RISULTATO */
     width:  auto;
     text-align: left;
     padding: 0px 5px 0px 5px;
-
+    
 }
 
 .bottone {
