@@ -57,14 +57,14 @@ body {
 }
 
 
-
+/* STILE BOX ENORME */
 .blocco{
     background-color: #228b22;
     align-items: stretch;
     justify-content: center;
     margin: 0 auto;
     width: calc(100% - 30%);
-   height: 800px;              /* ALTEZZA */
+    height: 800px;              /* ALTEZZA */
     border: 1px dashed #000;
 }
 
@@ -74,6 +74,7 @@ body {
     justify-content: center;
     margin: 0 auto;
     width: calc(100% - 30%);
+    height: 500px;
     
 }
 
@@ -88,8 +89,38 @@ OTTENERE LO STESSO RISULTATO */
     flex-direction: row-reverse; 
 }
 
+.colonna{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 30%);
+    
+}
 
+/* stile tabella a colonna */
+.tabella{
+    height: 580px;
+    border: 1px dashed #000;
+}
 
+.sx {
+    background-color: #f08080;
+    flex-grow: 1 ;
+}
+
+.dx{
+    background-color: #20b2aa;
+    flex-grow: 2 ;
+    display: flex;
+}
+
+.dx > div {
+    flex-grow: 1;
+    border: 1px dashed #ffffff;
+}
+
+/* STILI PER I BOX A DUE BLOCCHI */
 .box{
     border: 1px dashed #000;
     height: 500px;
